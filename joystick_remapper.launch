@@ -1,0 +1,12 @@
+<launch>
+<node pkg="joy" type="joy_node" name="logitech_joy" >
+  <remap from="joy" to="logitech" />
+</node>
+
+<node pkg="joystick_remapper" type="joystick_remapper.py" name="logitech_to_ps3" >
+  <remap from="joy_source" to="logitech" />
+  <remap from="joy_dest" to="joy" />
+  <param name="button_mapping" type="str" value="8 -1 -1 9 -1 -1 -1 -1 6 7 4 5 3 2 1 0" />
+  <param name="axis_mapping" type="str" value="=" />
+</node>
+</launch>
