@@ -1,5 +1,7 @@
 # joystick_remapper
 
-http://wiki.ros.org/joystick_remapper/Tutorials/UsingJoystickRemapper
+Modified from https://github.com/ua-sista/ua-ros-pkg/tree/master/arrg/ua_drivers/joystick_remapper
 
-Tested with Ubuntu 16.04 LTS + ROS Kinetic
+Tutorial: http://wiki.ros.org/joystick_remapper/Tutorials/UsingJoystickRemapper
+
+*Tested with Ubuntu 16.04 LTS + ROS Kinetic*
