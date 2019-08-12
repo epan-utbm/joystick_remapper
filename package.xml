@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<package>
+  <name>joystick_remapper</name>
+  <version>0.0.1</version>
+  <description>This node can be used to remap the buttons and axes of a joystick to get them into a standard form that other nodes can then use independently of which joystick is actually being used.</description>
+  <author>Blaise Gassend</author>
+  <maintainer email="thomas.duvinage@utbm.fr">Thomas Duvinage</maintainer>
+  <license>BSD</license>
+  
+  <buildtool_depend>catkin</buildtool_depend>
+  
+  <build_depend>rospy</build_depend>
+  <build_depend>sensor_msgs</build_depend>
+  
+  <run_depend>rospy</run_depend>
+  <run_depend>sensor_msgs</run_depend>
+  <run_depend>joy</run_depend>
+</package>
